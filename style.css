@@ -1,0 +1,390 @@
+form {
+    border: none;
+    width: 220px;
+    height: 355px;
+    background-color: #242530;
+    border-radius: 2.5%;
+    margin: auto;
+}
+
+#input {
+    width: 210px;
+    height: 100px;
+    text-align: right;
+    margin: auto;
+    background-color: #242530;
+    color: whitesmoke;
+    font-size: -webkit-xxx-large;
+}
+
+p {
+    text-align: -webkit-center;
+    align-content: center;
+}
+
+body {
+    text-align: -webkit-center;
+    background-color: darkgrey;
+    padding: 100px;
+}
+
+#calc {
+    display: grid;
+    text-align: -webkit-center;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    grid-template-areas: "first-row first-row first-row first-row" "second-row second-row second-row second-row" "third-row third-row third-row third-row" "forth-row forth-row forth-row forth-row" "fifth-row fifth-row fifth-row fifth-row"
+}
+
+.buttons {
+    text-align: center;
+}
+
+#one {
+    grid-area: one;
+    height: 50px;
+    width: 50px;
+    border: none;
+    background-color: #363746;
+    color: whitesmoke;
+    font-size: large;
+}
+
+#two {
+    grid-area: two;
+    font-size: large;
+    height: 50px;
+    width: 50px;
+    border: none;
+    background-color: #363746;
+    color: whitesmoke;
+    /*     grid-row: 2;
+    grid-column: 2; */
+}
+
+#three {
+    grid-area: three;
+    font-size: large;
+    height: 50px;
+    width: 50px;
+    border: none;
+    background-color: #363746;
+    color: whitesmoke;
+    /*     grid-row: 2;
+    grid-column: 3; */
+}
+
+#four {
+    grid-area: four;
+    font-size: large;
+    height: 50px;
+    width: 50px;
+    border: none;
+    background-color: #363746;
+    color: whitesmoke;
+    /*     grid-row: 3;
+    grid-column: 1; */
+}
+
+#five {
+    grid-area: five;
+    font-size: large;
+    height: 50px;
+    width: 50px;
+    border: none;
+    background-color: #363746;
+    color: whitesmoke;
+    /*     grid-row: 3;
+    grid-column: 2; */
+}
+
+#six {
+    grid-area: six;
+    font-size: large;
+    height: 50px;
+    width: 50px;
+    border: none;
+    background-color: #363746;
+    color: whitesmoke;
+    /*     grid-row: 3;
+    grid-column: 3; */
+}
+
+#seven {
+    grid-area: seven;
+    font-size: large;
+    height: 50px;
+    width: 50px;
+    border: none;
+    background-color: #363746;
+    color: whitesmoke;
+    /*     grid-row: 4;
+    grid-column: 1; */
+}
+
+#eight {
+    grid-area: eight;
+    font-size: large;
+    height: 50px;
+    width: 50px;
+    border: none;
+    background-color: #363746;
+    color: whitesmoke;
+    /*     grid-row: 4;
+    grid-column: 2; */
+}
+
+#nine {
+    grid-area: nine;
+    font-size: large;
+    height: 50px;
+    width: 50px;
+    border: none;
+    background-color: #363746;
+    color: whitesmoke;
+    /*     grid-row: 4;
+    grid-column: 3; */
+}
+
+#zero {
+    grid-area: zero;
+    font-size: large;
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    border: none;
+    background-color: #363746;
+    color: whitesmoke;
+    /*     grid-row: 5;
+    grid-column: 2; */
+}
+
+#clear {
+    grid-area: clr;
+    font-size: large;
+    height: 50px;
+    width: 104px;
+    border: none;
+    background-color: #FFBB00;
+    color: whitesmoke;
+    /*     grid-row: 1;
+    grid-column: 1/3; */
+}
+
+#del {
+    grid-area: delete;
+    font-size: large;
+    height: 50px;
+    width: 104px;
+    border: none;
+    background-color: #FFBB00;
+    color: whitesmoke;
+    /*     grid-row: 1;
+    grid-column: 2/4; */
+}
+
+#add {
+    grid-area: add;
+    font-size: large;
+    height: 50px;
+    width: 50px;
+    border: none;
+    background-color: #363746;
+    color: whitesmoke;
+    /*     grid-row: 2;
+    grid-column: 4; */
+}
+
+#subtract {
+    grid-area: subtract;
+    font-size: large;
+    height: 50px;
+    width: 50px;
+    border: none;
+    background-color: #363746;
+    color: whitesmoke;
+    /*     grid-row: 3;
+    grid-column: 4; */
+}
+
+#multiply {
+    grid-area: multi;
+    font-size: large;
+    height: 50px;
+    width: 50px;
+    border: none;
+    background-color: #363746;
+    color: whitesmoke;
+    /*     grid-row: 4;
+    grid-column: 4; */
+}
+
+#divide {
+    grid-area: divide;
+    font-size: large;
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    border: none;
+    background-color: #363746;
+    color: whitesmoke;
+    /*     grid-row: 5;
+    grid-column: 4; */
+}
+
+#point {
+    grid-area: point;
+    font-size: large;
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    border: none;
+    background-color: #363746;
+    color: whitesmoke;
+    /*     grid-row: 5;
+    grid-column: 1; */
+}
+
+#equal {
+    grid-area: equal;
+    font-size: large;
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    border: none;
+    background-color: #363746;
+    color: whitesmoke;
+    /*     grid-row: 5;
+    grid-column: 4; */
+}
+
+#first-row {
+    grid-area: first-row;
+}
+
+#second-row {
+    grid-area: second-row;
+}
+
+#third-row {
+    grid-area: third-row;
+}
+
+#forth-row {
+    grid-area: forth-row;
+}
+
+#fifth-row {
+    grid-area: fifth-row;
+}
+
+#one:hover {
+    background-color: #2E2F3E;
+}
+
+#two:hover {
+    background-color: #2E2F3E;
+}
+
+#three:hover {
+    background-color: #2E2F3E;
+}
+
+#four:hover {
+    background-color: #2E2F3E;
+}
+
+#five:hover {
+    background-color: #2E2F3E;
+}
+
+#six:hover {
+    background-color: #2E2F3E;
+}
+
+#seven:hover {
+    background-color: #2E2F3E;
+}
+
+#eight:hover {
+    background-color: #2E2F3E;
+}
+
+#nine:hover {
+    background-color: #2E2F3E;
+}
+
+#zero:hover {
+    background-color: #2E2F3E;
+}
+
+#add:hover {
+    background-color: #2E2F3E;
+}
+
+#subtract:hover {
+    background-color: #2E2F3E;
+}
+
+#multiply:hover {
+    background-color: #2E2F3E;
+}
+
+#one:hover {
+    background-color: #2E2F3E;
+}
+
+#divide:hover {
+    background-color: #2E2F3E;
+}
+
+#equal:hover {
+    background-color: #2E2F3E;
+}
+
+#point:hover {
+    background-color: #2E2F3E;
+}
+
+#clear:hover {
+    background-color: #ffc113;
+}
+
+#del:hover {
+    background-color: #ffc113;
+}
+
+footer {
+    background-color: #242530;
+    color: whitesmoke;
+    position: fixed;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    font-size: x-large;
+    text-align: center;
+    padding: auto;
+}
+
+#github {
+    background-color: #AFB5BB;
+    height: 50px;
+    margin-left: 270px;
+    border: none;
+    width: 90px;
+}
+
+#twitter {
+    background-color: #1A91DA;
+    height: 50px;
+    margin-left: 20px;
+    border: none;
+    width: 90px;
+}
+
+.footer-links {
+    text-decoration: none;
+    color: #363746;
+    font-size: large;
+}
